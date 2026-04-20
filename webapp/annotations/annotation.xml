@@ -1,0 +1,23 @@
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/UI.xml">
+        <edmx:Include Namespace="com.sap.vocabularies.UI.v1" Alias="UI"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="/sap/opu/odata/sap/ZU_FLIGHT_U_V2/$metadata">
+        <edmx:Include Namespace="cds_zc_travel_tech_u" Alias="SAP"/>
+    </edmx:Reference>
+    <edmx:DataServices>
+        <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="local">
+            <Annotations Target="SAP.ZC_Travel_tech_UType">
+                <Annotation Term="UI.SelectionFields">
+                    <Collection>
+                        <PropertyPath>to_Booking/TravelID</PropertyPath>
+                        <PropertyPath>AgencyID</PropertyPath>
+                        <PropertyPath>CustomerID</PropertyPath>
+                        <PropertyPath>Status</PropertyPath>
+                        <PropertyPath>EndDate</PropertyPath>
+                    </Collection>
+                </Annotation>
+            </Annotations>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>
