@@ -8,7 +8,7 @@
     <edmx:DataServices>
         <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="local">
             <Annotations Target="SAP.ZC_Travel_tech_UType">
-                <Annotation Term="UI.SelectionFields">
+                <Annotation  Term="UI.SelectionFields">
                     <Collection>
                         <PropertyPath>to_Booking/TravelID</PropertyPath>
                         <PropertyPath>AgencyID</PropertyPath>
