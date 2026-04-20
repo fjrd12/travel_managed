@@ -15,6 +15,7 @@
                         <PropertyPath>CustomerID</PropertyPath>
                         <PropertyPath>Status</PropertyPath>
                         <PropertyPath>EndDate</PropertyPath>
+                        <PropertyPath>CustomerName</PropertyPath>
                     </Collection>
                 </Annotation>
             </Annotations>
