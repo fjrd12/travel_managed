@@ -16,7 +16,6 @@
                         <PropertyPath>Status</PropertyPath>
                         <PropertyPath>EndDate</PropertyPath>
                         <PropertyPath>CustomerName</PropertyPath>
-                        <PropertyPath>CurrencyCode</PropertyPath>
                     </Collection>
                 </Annotation>
             </Annotations>
